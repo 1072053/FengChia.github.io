@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        #content_area {
+            background-color: aliceblue;
+            width: 90vw;
+            height: 80vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 30px;
+            overflow: scroll;
+        }
+
+        #btn {
+            background-color: darkcyan;
+            border: none;
+            color: azure;
+
+            font-size: large;
+            border-radius: 30px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+
+            position: absolute;
+            bottom: 3%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+
+            /* 背景圖片 */
+            background-image: url(img/背景.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1,
+        h5,
+        p {
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            margin-right: 30px;
+            margin-left: 30px;
+            font-weight: bold;
+        }
+
+        #logo {
+            height: 7vh;
+            display: flex;
+            justify-content: right;
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+
+        .carousel-inner {
+            /* height: 200px; */
+        }
+
+        #img_area {
+            width: 80%;
+            position: absolute;
+            /* top: 50%; */
+            left: 50%;
+            transform: translate(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="img/右上LOGO.png" alt="">
+    </div>
+
+    <div id="content_area">
+        <h1>手手植作</h1>
+        <h5>植蕨系P.feel_Department</h5>
+        <p style="color: darkgrey; margin: 0px;">- - - - - - - - - - - - - - - - - - - - - - - -</p>
+        <p style="margin-top: 0px;">在急急忙忙的生活步調中，讓我們放緩腳步、輕放煩惱，來一堂苔球體驗。
+            用手體驗自然、用心與植物溝通，手與植栽溝通的過程中，漸漸的、慢慢的
+            得到了療癒知覺，又或是心情緊繃的你，不訪轉移注意力到手作苔球上，
+            讓你忘卻那顆緊繃的心。手也可以是嘴巴，用掌指之間的合作，表達出你的態度。
+        </p>
+        <!-- -------------------- -->
+        <div id="img_area">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/攤位1 手手植作/1.植蕨系(劉奇星)-1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/攤位1 手手植作/1.植蕨系(劉奇星)-2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/攤位1 手手植作/1.植蕨系(劉奇星)-3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/攤位1 手手植作/1.植蕨系(劉奇星)-4.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/攤位1 手手植作/1.植蕨系(劉奇星)-5.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- -------------------------------- -->
+
+    </div>
+    <input id="btn" type="button" onclick="history.back()" value="返回"></input>
+
+
+    <!-- ===================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
